@@ -281,7 +281,7 @@
             'name': 'variable.other.primitive-field.protobuf'
           '3':
             'name': 'constant.numeric.field-tag.protobuf'
-        'match': '([A-Za-z.]*)\\s+(\\S+)\\s*=\\s*(\\d+)'
+        'match': '([A-Z][A-Za-z0-9.]*)\\s+(\\S+)\\s*=\\s*(\\d+)'
       }
       {
         'include': '#comments'
